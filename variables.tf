@@ -23,3 +23,8 @@ variable "key_path"{
   description= "path to the gcp service key"
   type= string
 }
+
+variable "initial_run_image"{
+  description= "the link to the docker image of the app in the google artifact registry"
+  type= string
+}

@@ -17,4 +17,5 @@
 module "dynamic_web_app" {
   source     = "./module"
   project_id = var.project_id
+  initial_run_image = var.initial_run_image
 }
