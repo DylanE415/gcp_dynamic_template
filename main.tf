@@ -15,6 +15,7 @@
  */
 
 module "dynamic_web_app" {
+  deployment_name= var.deployment_name
   source     = "./module"
   project_id = var.project_id
   initial_run_image = var.initial_run_image

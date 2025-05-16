@@ -28,3 +28,8 @@ variable "initial_run_image"{
   description= "the link to the docker image of the app in the google artifact registry"
   type= string
 }
+
+variable "deployment_name" {
+  description= "Identifier for the deployment"
+  type = string
+}
